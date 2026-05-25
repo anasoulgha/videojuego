@@ -1,0 +1,13 @@
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\cliente\Cliente.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\conexion\Conexion.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\exception\ClienteException.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\exception\SeguridadException.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\exception\ServidorException.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\partida\Jugador.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\partida\NumeroAleatorio.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\partida\Partida.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\server\Server.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\util\LogUtil.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\util\UtilHash.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\util\UtilSeguridad.java
+C:\Users\ANAS\Desktop\PspRec\videojuego\src\main\java\es\etg\dam\videojuego\util\UtilSimetrico.java
