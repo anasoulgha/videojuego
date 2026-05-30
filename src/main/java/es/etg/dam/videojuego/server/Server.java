@@ -1,6 +1,5 @@
 package es.etg.dam.videojuego.server;
 
-
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.logging.Level;
@@ -40,12 +39,10 @@ public class Server {
 
           LogUtil.escribirLog(logger, Level.INFO, String.format(MSG_CONEXION, nombre));
           juego.guardarJugador(nombre, socket);
-
         }
 
         Thread hilo = new Thread(juego);
         hilo.start();
-
       }
 
     } catch (Exception e) {
@@ -53,5 +50,4 @@ public class Server {
       throw new ServidorException(e.getMessage(), e);
     }
   }
-
 }

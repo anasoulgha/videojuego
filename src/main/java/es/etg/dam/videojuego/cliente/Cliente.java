@@ -1,6 +1,5 @@
 package es.etg.dam.videojuego.cliente;
 
-
 import java.net.Socket;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -16,7 +15,9 @@ public class Cliente {
      private static final String FICHERO_LOG = "Cliente.log";
 
      public static void main(String[] args) throws ClienteException {
+          
           Logger logger = null;
+
           try (Socket socket = new Socket(HOST, PUERTO)) {
                logger = LogUtil.crearLog(FICHERO_LOG);
 
@@ -26,7 +27,8 @@ public class Cliente {
                conn.escribir(nombre, socket);
 
                String resultado = conn.leer(socket);
-               System.out.println(resultado);
+               //System.out.println(resultado);
+               LogUtil.escribirLog(logger, Level.INFO, resultado);
 
           } catch (Exception e) {
                LogUtil.escribirLog(logger, Level.SEVERE, e.getMessage(), e);
