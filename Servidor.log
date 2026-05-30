@@ -18,3 +18,17 @@ may 30, 2026 1:10:19 P. M. es.etg.dam.videojuego.util.LogUtil escribirLog
 INFORMACIÓN: Jugador conectado: Anas
 may 30, 2026 1:10:19 P. M. es.etg.dam.videojuego.util.LogUtil escribirLog
 INFORMACIÓN: Esperando jugadores...
+may 30, 2026 10:18:29 P. M. es.etg.dam.videojuego.util.LogUtil escribirLog
+INFORMACIÓN: Servidor escuchando en el puerto 8888
+may 30, 2026 10:18:29 P. M. es.etg.dam.videojuego.util.LogUtil escribirLog
+INFORMACIÓN: Esperando jugadores...
+may 30, 2026 10:18:37 P. M. es.etg.dam.videojuego.util.LogUtil escribirLog
+INFORMACIÓN: DEBUG - Paquete recibido (cifrado + hash): aIiz6X/qj3LENAahihb1Sg==:e09b6c1fc25adca4c29229bd4e0fe1e2ed47ec1c5dd355c0aa8ecf4ce8d64041
+may 30, 2026 10:18:37 P. M. es.etg.dam.videojuego.util.LogUtil escribirLog
+INFORMACIÓN: Jugador conectado: Pepe
+may 30, 2026 10:18:47 P. M. es.etg.dam.videojuego.util.LogUtil escribirLog
+INFORMACIÓN: DEBUG - Paquete recibido (cifrado + hash): wRBg2Gk7cUBNdTxXwnFeKQ==:6ba0e95e87412ae5deabb4e49515cac3d82ecf1583e5c57dcfd63c97ba652b1b
+may 30, 2026 10:18:47 P. M. es.etg.dam.videojuego.util.LogUtil escribirLog
+INFORMACIÓN: Jugador conectado: Anas
+may 30, 2026 10:18:47 P. M. es.etg.dam.videojuego.util.LogUtil escribirLog
+INFORMACIÓN: Esperando jugadores...

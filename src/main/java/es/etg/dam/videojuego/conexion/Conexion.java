@@ -25,7 +25,7 @@ public class Conexion {
         DataInputStream dis = new DataInputStream(socket.getInputStream());
         String paqueteBruto = dis.readUTF();
         
-        LogUtil.escribirLog(logger, Level.FINE, "DEBUG - Paquete recibido (cifrado + hash): " + paqueteBruto);
+        LogUtil.escribirLog(logger, Level.INFO, "DEBUG - Paquete recibido (cifrado + hash): " + paqueteBruto);
         //return UtilSeguridad.desempaquetar(dis.readUTF());
         return UtilSeguridad.desempaquetar(paqueteBruto);
 

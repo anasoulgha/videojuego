@@ -27,11 +27,12 @@ public class Partida implements Runnable {
 
             Jugador ganador = null;
             int jugadorMaxPun = 0;
-
+            // da un numero aleatorio
             for (Jugador jugador : jugadores) {
                 jugador.setPuntos(NumeroAleatorio.generar());
             }
 
+            // pone cual es el ganador
             for (int i = 0; i < MAX_JUGADORES; i++) {
 
                 Jugador jugadorActual = jugadores.get(i);
